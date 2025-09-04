@@ -1,0 +1,97 @@
+{
+  "id": "4425eece-6d4a-3032-9bd4-f514c6813c57",
+  "name": "Intech General",
+  "publisher": "ISPL",
+  "version": "1.0.0.6",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "db643212-b7fb-4dd4-b5a8-cb44ac714461",
+      "publisher": "Microsoft",
+      "version": "22.0.0.0",
+      "name": "India GST"
+    },
+    {
+      "id": "d3c551dd-5903-4194-b153-04ced9d29a2c",
+      "publisher": "Microsoft",
+      "name": "India Tax Base",
+      "version": "22.0.0.0"      
+    },
+    {
+      "id": "eddcf82e-482c-49d1-836b-ad0284f2c5b0",
+      "publisher": "Microsoft",
+      "version": "22.0.0.0",
+      "name": "India TCS"
+    },
+    {
+      "id": "eae5779e-7797-4c4c-977e-7516652b7a65",
+      "publisher": "Microsoft",
+      "version": "22.0.0.0",
+      "name": "India TDS"
+    },
+    {
+      "id": "2dc39818-e0f0-42b6-99eb-ba29dc5f4102",
+      "publisher": "Microsoft",
+      "version": "22.0.0.0",
+      "name": "India Gate Entry"
+    },
+    {
+      "id": "c1eafb3f-e397-468e-bdb4-ecc5c317ca00",
+      "publisher": "Microsoft",
+      "version": "22.0.0.0",
+      "name": "Tax Engine"
+    },
+    {
+      "id": "1150dd8d-51da-485a-bd4a-1ee98d78c21a",
+      "publisher": "Microsoft",
+      "version": "22.0.0.0",
+      "name": "Fixed Asset Depreciation for India"
+    },
+    {
+      "id": "f1d9b696-156b-4251-b542-34e549fa80e9",
+      "publisher": "Microsoft",
+      "version": "22.0.0.0",
+      "name": "India Voucher Interface"
+    },
+    {
+      "id": "7106d701-c601-4a5f-97c2-b8b323ae2c18",
+      "name": "QR Generator",
+      "version": "22.0.0.0",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "07729019-da51-4639-a987-3db38ccc62c7",
+      "name": "India Charge Group",
+      "version": "21.0.0.0",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "a01864f8-9c3f-42f6-8328-8d7be1ce3e20",
+      "name": "_Exclude_Master_Data_Management",
+      "publisher": "Microsoft",
+      "version": "22.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 74981,
+      "to": 75380
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://BusinesscentralIN.com/help/",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0"
+}

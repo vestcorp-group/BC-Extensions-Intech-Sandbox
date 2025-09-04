@@ -1,0 +1,45 @@
+{
+    "id": "33aa3663-45ec-4155-ac1d-84bef5b6c291",
+    "name": "Certificate of Analysis",
+    "publisher": "Kemipex FZE",
+    "version": "1.0.0.21",
+    "brief": "This app is developed for COA.",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [{
+        "id": "213a67b3-a931-4d61-8ed4-8f5ccae345c3",
+        "name": "Kemipex Base App",
+        "publisher": "Kemipex FZE",
+        "version": "1.0.0.0"
+    },
+    {
+        "id": "cea8e57e-050e-4880-840c-454ceb2e3f18",
+        "name": "Quality Control",
+        "publisher": "ISPL",
+        "version": "1.0.0.0"
+        },
+        {
+            "id": "3881b960-40e7-4b1f-9383-adf286c85763",
+            "name": "Kemipex Business App",
+             "publisher": "ISPL",
+        "version": "1.0.0.0"
+        }
+],
+    "screenshots": [],
+    "platform": "19.0.0.0",
+    "application": "24.0.0.0",
+    "idRanges": [{
+        "from": 50500,
+        "to": 50549
+    }],
+    "resourceExposurePolicy": {
+        "allowDebugging": false, 
+        "allowDownloadingSource": true,       
+        "includeSourceInSymbolFile": false
+    },
+    "runtime": "13.0"
+}

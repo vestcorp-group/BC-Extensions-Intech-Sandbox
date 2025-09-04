@@ -1,0 +1,92 @@
+{
+    "id": "c8fa54b6-1742-46c0-9902-15370a25c517",
+  "name": "Quick Update (No Table)",
+  "publisher": "ISPL",
+  "version": "1.0.0.13",
+  "brief": "",
+  "description": "",
+  "suppressWarnings": ["AL0432"],
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+    "id": "213a67b3-a931-4d61-8ed4-8f5ccae345c3",
+    "name": "Kemipex Base App",
+    "publisher": "Kemipex FZE",
+    "version": "1.0.0.0"
+},
+{
+    "id": "c447a136-b2eb-49c3-ae53-41c311960f9b",
+    "name": "Kemipex Enhancement App",
+    "publisher": "Kemipex FZE",
+    "version": "1.0.0.0"
+},
+{
+    "id": "33aa3663-45ec-4155-ac1d-84bef5b6c291",
+    "name": "Certificate of Analysis",
+    "publisher": "Kemipex FZE",
+    "version": "1.0.0.0"
+},
+{
+  "id": "3881b960-40e7-4b1f-9383-adf286c85763",
+  "name": "Kemipex Business App",
+  "publisher": "Kemipex FZE",
+  "version": "1.0.0.0"
+},
+{
+  "id": "db643212-b7fb-4dd4-b5a8-cb44ac714461",
+  "publisher": "Microsoft",
+  "name": "India GST",
+  "version": "20.0.0.0"
+},
+{
+    "id": "c512d720-63b9-4b26-b062-a0c09b4ed322",
+    "name": "Company Hub",
+    "publisher": "Microsoft",
+    "version": "1.0.0.0"
+  },
+  {
+    "id": "cea8e57e-050e-4880-840c-454ceb2e3f18",
+    "name": "Quality Control",
+    "publisher": "ISPL",
+    "version": "1.0.0.0"
+  },
+  {
+    "id": "1d294689-c045-4c5a-a2c2-4026810571b2",
+    "name": "Kemipex Development_TableOnly",
+    "publisher": "ISPL",
+    "version": "1.0.0.0"
+  },
+  {
+    "id": "ec463e61-a101-441d-ff5d-12a14141ab14",
+    "name": "Production Change Note",
+    "publisher": "ISPL",
+    "version": "1.0.0.0"
+  }
+  
+  
+  
+  
+],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 85651,
+      "to": 85699
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

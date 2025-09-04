@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="Company">
+          <DataField>Company</DataField>
+        </Field>
+        <Field Name="No_">
+          <DataField>No_</DataField>
+        </Field>
+        <Field Name="Description">
+          <DataField>Description</DataField>
+        </Field>
+        <Field Name="Base_Unit_of_Measure">
+          <DataField>Base_Unit_of_Measure</DataField>
+        </Field>
+        <Field Name="Inventory">
+          <DataField>Inventory</DataField>
+        </Field>
+        <Field Name="InventoryFormat">
+          <DataField>InventoryFormat</DataField>
+        </Field>
+        <Field Name="InventoryQty">
+          <DataField>InventoryQty</DataField>
+        </Field>
+        <Field Name="InventoryQtyFormat">
+          <DataField>InventoryQtyFormat</DataField>
+        </Field>
+        <Field Name="ExpectedCost">
+          <DataField>ExpectedCost</DataField>
+        </Field>
+        <Field Name="ExpectedCostFormat">
+          <DataField>ExpectedCostFormat</DataField>
+        </Field>
+        <Field Name="ActualCost">
+          <DataField>ActualCost</DataField>
+        </Field>
+        <Field Name="ActualCostFormat">
+          <DataField>ActualCostFormat</DataField>
+        </Field>
+        <Field Name="LandedUnitCost">
+          <DataField>LandedUnitCost</DataField>
+        </Field>
+        <Field Name="LandedUnitCostFormat">
+          <DataField>LandedUnitCostFormat</DataField>
+        </Field>
+        <Field Name="Bracket90D_Qty">
+          <DataField>Bracket90D_Qty</DataField>
+        </Field>
+        <Field Name="Bracket90D_QtyFormat">
+          <DataField>Bracket90D_QtyFormat</DataField>
+        </Field>
+        <Field Name="bracket180D_Qty">
+          <DataField>bracket180D_Qty</DataField>
+        </Field>
+        <Field Name="bracket180D_QtyFormat">
+          <DataField>bracket180D_QtyFormat</DataField>
+        </Field>
+        <Field Name="bracket360D_qty">
+          <DataField>bracket360D_qty</DataField>
+        </Field>
+        <Field Name="bracket360D_qtyFormat">
+          <DataField>bracket360D_qtyFormat</DataField>
+        </Field>
+        <Field Name="bracket30D_Qty">
+          <DataField>bracket30D_Qty</DataField>
+        </Field>
+        <Field Name="bracket30D_QtyFormat">
+          <DataField>bracket30D_QtyFormat</DataField>
+        </Field>
+        <Field Name="bracket30D_Value">
+          <DataField>bracket30D_Value</DataField>
+        </Field>
+        <Field Name="bracket30D_ValueFormat">
+          <DataField>bracket30D_ValueFormat</DataField>
+        </Field>
+        <Field Name="Bracket90D_Value">
+          <DataField>Bracket90D_Value</DataField>
+        </Field>
+        <Field Name="Bracket90D_ValueFormat">
+          <DataField>Bracket90D_ValueFormat</DataField>
+        </Field>
+        <Field Name="bracket180D_Value">
+          <DataField>bracket180D_Value</DataField>
+        </Field>
+        <Field Name="bracket180D_ValueFormat">
+          <DataField>bracket180D_ValueFormat</DataField>
+        </Field>
+        <Field Name="bracket360D_Value">
+          <DataField>bracket360D_Value</DataField>
+        </Field>
+        <Field Name="bracket360D_ValueFormat">
+          <DataField>bracket360D_ValueFormat</DataField>
+        </Field>
+        <Field Name="BracketMorethan360DQty">
+          <DataField>BracketMorethan360DQty</DataField>
+        </Field>
+        <Field Name="BracketMorethan360DQtyFormat">
+          <DataField>BracketMorethan360DQtyFormat</DataField>
+        </Field>
+        <Field Name="bracketMorethan360D_Value">
+          <DataField>bracketMorethan360D_Value</DataField>
+        </Field>
+        <Field Name="bracketMorethan360D_ValueFormat">
+          <DataField>bracketMorethan360D_ValueFormat</DataField>
+        </Field>
+        <Field Name="AsonDate">
+          <DataField>AsonDate</DataField>
+        </Field>
+        <Field Name="TotalCost">
+          <DataField>TotalCost</DataField>
+        </Field>
+        <Field Name="TotalCostFormat">
+          <DataField>TotalCostFormat</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

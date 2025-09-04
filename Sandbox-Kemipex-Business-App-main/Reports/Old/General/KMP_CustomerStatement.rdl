@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="Name">
+          <DataField>Name</DataField>
+        </Field>
+        <Field Name="CompanyText">
+          <DataField>CompanyText</DataField>
+        </Field>
+        <Field Name="CompanyShortName">
+          <DataField>CompanyShortName</DataField>
+        </Field>
+        <Field Name="PrintingDate">
+          <DataField>PrintingDate</DataField>
+        </Field>
+        <Field Name="No_">
+          <DataField>No_</DataField>
+        </Field>
+        <Field Name="Search_Name">
+          <DataField>Search_Name</DataField>
+        </Field>
+        <Field Name="Responsibility_Center">
+          <DataField>Responsibility_Center</DataField>
+        </Field>
+        <Field Name="Salesperson">
+          <DataField>Salesperson</DataField>
+        </Field>
+        <Field Name="Salesperson_TeamName">
+          <DataField>Salesperson_TeamName</DataField>
+        </Field>
+        <Field Name="Country_Region_Code">
+          <DataField>Country_Region_Code</DataField>
+        </Field>
+        <Field Name="BSO_No_">
+          <DataField>BSO_No_</DataField>
+        </Field>
+        <Field Name="BSO_Date">
+          <DataField>BSO_Date</DataField>
+        </Field>
+        <Field Name="SO_No_">
+          <DataField>SO_No_</DataField>
+        </Field>
+        <Field Name="SO_Date">
+          <DataField>SO_Date</DataField>
+        </Field>
+        <Field Name="Invoice_Date">
+          <DataField>Invoice_Date</DataField>
+        </Field>
+        <Field Name="Document_No_">
+          <DataField>Document_No_</DataField>
+        </Field>
+        <Field Name="Currency_Code">
+          <DataField>Currency_Code</DataField>
+        </Field>
+        <Field Name="Invoice_Amount">
+          <DataField>Invoice_Amount</DataField>
+        </Field>
+        <Field Name="Invoice_AmountFormat">
+          <DataField>Invoice_AmountFormat</DataField>
+        </Field>
+        <Field Name="Invoice_Amount__LCY_">
+          <DataField>Invoice_Amount__LCY_</DataField>
+        </Field>
+        <Field Name="Invoice_Amount__LCY_Format">
+          <DataField>Invoice_Amount__LCY_Format</DataField>
+        </Field>
+        <Field Name="Invoice_Due_Date">
+          <DataField>Invoice_Due_Date</DataField>
+        </Field>
+        <Field Name="Outstanding_Balance__LCY_">
+          <DataField>Outstanding_Balance__LCY_</DataField>
+        </Field>
+        <Field Name="Outstanding_Balance__LCY_Format">
+          <DataField>Outstanding_Balance__LCY_Format</DataField>
+        </Field>
+        <Field Name="Due_Days">
+          <DataField>Due_Days</DataField>
+        </Field>
+        <Field Name="Running_Value">
+          <DataField>Running_Value</DataField>
+        </Field>
+        <Field Name="TotalInvoiceCaption">
+          <DataField>TotalInvoiceCaption</DataField>
+        </Field>
+        <Field Name="Total_Currency_Code">
+          <DataField>Total_Currency_Code</DataField>
+        </Field>
+        <Field Name="Total_Invoice_Value">
+          <DataField>Total_Invoice_Value</DataField>
+        </Field>
+        <Field Name="Total_Invoice_ValueFormat">
+          <DataField>Total_Invoice_ValueFormat</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

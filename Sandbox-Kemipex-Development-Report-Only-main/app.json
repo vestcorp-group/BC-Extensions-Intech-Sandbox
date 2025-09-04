@@ -1,0 +1,90 @@
+{
+  "id": "6d294689-c045-4c5a-a2c2-4026810871b1",
+  "name": "Kemipex Development_ReportOnly",
+  "publisher": "ISPL",
+  "version": "1.0.0.9",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "name": "India GST",
+      "id": "db643212-b7fb-4dd4-b5a8-cb44ac714461",
+      "publisher": "Microsoft",
+      "version": "23.5.0.0"
+    },
+    {
+      "name": "India Tax Base",
+      "id": "d3c551dd-5903-4194-b153-04ced9d29a2c",
+      "publisher": "Microsoft",
+      "version": "19.0.0.0"
+    },
+    {
+      "name": "Tax Engine",
+      "id": "c1eafb3f-e397-468e-bdb4-ecc5c317ca00",
+      "publisher": "Microsoft",
+      "version": "19.0.0.0"
+    },
+    {
+      "name": "India Reports",
+      "id": "050f6146-bffd-40de-942c-d0dd510ec20f",
+      "publisher": "Microsoft",
+      "version": "19.0.0.0"
+    },
+    {
+      "id": "a708e2e0-24e5-4d8b-ae40-4941aae6b336",
+      "name": "Purchase Indent",
+      "publisher": "ISPL",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "2c8bdb6b-2746-4102-bf7e-ec79c8aa93b7",
+      "name": "EXIM",
+      "publisher": "ISPL",
+       "version": "1.0.0.4"
+    },
+    {
+      "id": "1d294689-c045-4c5a-a2c2-4026810571b2",
+      "name": "Kemipex Development_TableOnly",
+      "publisher": "ISPL",
+      "version": "1.0.0.1"
+    },
+    {
+      "id": "213a67b3-a931-4d61-8ed4-8f5ccae345c3",
+      "publisher": "Kemipex FZE",
+      "name": "Kemipex Base App",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "3881b960-40e7-4b1f-9383-adf286c85763",
+      "publisher": "Kemipex FZE",
+      "name": "Kemipex Business App",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "cea8e57e-050e-4880-840c-454ceb2e3f18",
+      "name": "Quality Control",
+      "publisher": "ISPL",
+      "version": "1.0.0.0"
+    },{
+      "id": "d8fa54b6-1242-46c0-9902-15370a25d686",
+      "name": "Packaging Development",
+      "publisher": "ISPL",
+      "version": "1.0.0.0"
+  }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "17.0.0.0",
+  "idRanges": [
+    {
+     "from": 50550,
+      "to": 50700
+    }
+  ],
+  "runtime": "13.0"
+}

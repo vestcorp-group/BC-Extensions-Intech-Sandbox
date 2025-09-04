@@ -1,0 +1,81 @@
+{
+    "id": "3881b960-40e7-4b1f-9383-adf286c85763",
+    "name": "Kemipex Business App",
+    "publisher": "Kemipex FZE",
+    "brief": "",
+    "description": "",
+    "version": "1.0.0.84",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+        {
+            "id": "db643212-b7fb-4dd4-b5a8-cb44ac714461",
+            "publisher": "Microsoft",
+            "name": "India GST",
+            "version": "24.0.0.0"
+        },
+        {
+            "id": "c1eafb3f-e397-468e-bdb4-ecc5c317ca00",
+            "publisher": "Microsoft",
+            "name": "Tax Engine",
+            "version": "24.0.0.0"
+        },
+        {
+            "id": "c512d720-63b9-4b26-b062-a0c09b4ed322",
+            "name": "Company Hub",
+            "publisher": "Microsoft",
+            "version": "24.0.0.0"
+        },
+        {
+            "id": "213a67b3-a931-4d61-8ed4-8f5ccae345c3",
+            "name": "Kemipex Base App",
+            "publisher": "Kemipex FZE",
+            "version": "1.0.0.0"
+        },
+        {
+            "id": "c447a136-b2eb-49c3-ae53-41c311960f9b",
+            "name": "Kemipex Enhancement App",
+            "publisher": "Kemipex FZE",
+            "version": "1.0.0.0"
+        },
+        {
+            "id": "ec463e61-a303-441d-bb5d-12a14141db15",
+            "name": "Document Short Close",
+            "publisher": "ISPL",
+            "version": "1.0.0.0"
+        },
+        {
+            "id": "3485eece-9d4a-4032-9bd4-f514c6813c52",
+            "name": "Standard Reports",
+            "publisher": "ISPL",
+            "version": "1.0.0.0"
+        },
+        {
+            "id": "d8fa54b6-1242-46c0-9902-15370a25d686",
+            "name": "Packaging Development",
+            "publisher": "ISPL",
+            "version": "1.0.0.0"
+        }
+        
+    ],
+    "screenshots": [],
+    "platform": "20.0.0.0",
+    "application": "24.0.0.0",
+    "idRanges": [{
+        "from": 58000,
+        "to": 58500
+    },
+    {
+        "from": 53000,
+        "to": 53500
+    }],
+    "resourceExposurePolicy": {
+        "allowDebugging": false,
+        "allowDownloadingSource": false,
+        "includeSourceInSymbolFile": false
+    },
+    "runtime": "13.0"
+}

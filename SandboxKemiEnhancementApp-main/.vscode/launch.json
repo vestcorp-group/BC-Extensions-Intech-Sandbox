@@ -1,0 +1,84 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Intech-RimtexSandbox",
+            "type": "al",
+            "request": "launch",
+            "tenant": "rimtexeng.onmicrosoft.com",
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox1",
+            "schemaUpdateMode": "Synchronize",
+             "dependencyPublishingOption": "Ignore"
+        },
+        {
+            "name": "VESTCORP_R3_Stagging",
+            "request": "launch",
+            "type": "al",
+            "tenant": "df418cba-3488-4c83-9502-35ce6824056e",
+            "environmentType": "Sandbox",
+            "environmentName": "VESTCORP_R3_Stagging",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+             "dependencyPublishingOption": "Ignore"
+        },
+        // {
+        //     "name": "indiansandbox",
+        //     "request": "launch",
+        //     "type": "al",
+        //     "startupObjectId": 22,
+        //     "startupObjectType": "Page",            
+        //     "environmentType": "Sandbox",
+        //     "environmentName": "indiansandbox",
+        //     "tenant": "f9b0ac4e-f41d-470a-8c60-592af9e81ca3",   //df418cba-3488-4c83-9502-35ce6824056e
+        //     "breakOnError": true,
+        //     "launchBrowser": true,
+        //     "enableLongRunningSqlStatements": true,
+        //     "enableSqlInformationDebugger": true,
+        //     "schemaUpdateMode": "Synchronize"
+        // },
+        
+        {
+            "name": "ERP-Revamp-Project",
+            "request": "launch",
+            "type": "al",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",            
+            "environmentType": "Sandbox",
+            "environmentName": "ERP-Revamp-Project",
+            "tenant": "df418cba-3488-4c83-9502-35ce6824056e",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "Synchronize"
+        },
+        {
+            "name": "UNIPIAN_R3_Sandbox",
+            "request": "launch",
+            "type": "al",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",            
+            "environmentType": "Sandbox",
+            "environmentName": "UNIPIAN_R3_Sandbox",
+            "tenant": "3e2937d0-cd42-4c48-bf44-ee7afb3be012",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "Synchronize"
+        }
+
+    ]
+}

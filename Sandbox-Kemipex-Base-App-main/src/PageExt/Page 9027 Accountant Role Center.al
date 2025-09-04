@@ -1,0 +1,41 @@
+/// <summary>//T12370-Full Comment
+/// PageExtension ExtendNavigationArea (ID 54012) extends Record Business Manager Role Center.
+/// </summary>
+pageextension 54013 "ExtendNavigationArea2" extends "Accountant Role Center"    //T13413-FullUnComment
+{
+
+    actions
+    {
+        addlast(Sections)
+        {
+            group(Upload)
+            {
+                action("PurchaseInvoice")
+                {
+                    RunObject = page "Upload Purchase Invoice";
+                    Caption = 'Purchase Invoice';
+                    ApplicationArea = All;
+                }
+                action(PostedPurchaseInvoice)
+                {
+                    RunObject = page "Posted Upload Purchase Invoice";
+                    ApplicationArea = All;
+                    Caption = 'Posted Purchase Invoice';
+                }
+
+                action("UploadVoucherLine")
+                {
+                    RunObject = page "Upload Voucher Lines";
+                    Caption = 'Voucher Lines';
+                    ApplicationArea = All;
+                }
+                action("PostedUploadVoucherLine")
+                {
+                    RunObject = page "Posted Upload Voucher Lines";
+                    ApplicationArea = All;
+                    Caption = 'Posted Voucher Lines';
+                }
+            }
+        }
+    }
+}

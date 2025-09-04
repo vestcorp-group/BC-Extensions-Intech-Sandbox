@@ -1,0 +1,33 @@
+// pageextension 50393 TarrifNoExt extends "Tariff Numbers"//T12370-Full Comment
+// {
+//     layout
+//     {
+//         // Add changes to page layout here
+//     }
+
+//     actions
+//     {
+//         // Add changes to page actions here
+//         addfirst(Creation)
+//         {
+//             action(Release)
+//             {
+//                 Caption = 'Release to Companies';
+//                 ApplicationArea = all;
+//                 Promoted = true;
+//                 PromotedCategory = Process;
+//                 PromotedIsBig = true;
+//                 trigger OnAction()
+//                 var
+//                     ReleaseToCompany: Codeunit "Release to Company";
+//                 begin
+//                     ReleaseToCompany.ReleaseHSCodetoCompany(Rec);
+//                 end;
+//             }
+
+//         }
+//     }
+
+//     var
+//         myInt: Integer;
+// }

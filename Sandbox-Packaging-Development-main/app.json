@@ -1,0 +1,41 @@
+{
+    "id": "d8fa54b6-1242-46c0-9902-15370a25d686",
+  "name": "Packaging Development",
+  "publisher": "ISPL",
+  "version": "1.0.0.5",
+  "brief": "",
+  "description": "",
+  "suppressWarnings": ["AL0432"],
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "213a67b3-a931-4d61-8ed4-8f5ccae345c3",
+      "name": "Kemipex Base App",
+      "publisher": "Kemipex FZE",
+      "version": "1.0.0.0"
+  }
+  
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from":80201,
+    "to": 80250
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="Location_Code_">
+          <DataField>Location_Code_</DataField>
+        </Field>
+        <Field Name="Company_Name_">
+          <DataField>Company_Name_</DataField>
+        </Field>
+        <Field Name="Item_No_">
+          <DataField>Item_No_</DataField>
+        </Field>
+        <Field Name="Group_GRN_Date">
+          <DataField>Group_GRN_Date</DataField>
+        </Field>
+        <Field Name="Item_Desc_">
+          <DataField>Item_Desc_</DataField>
+        </Field>
+        <Field Name="ItemSearchDesc">
+          <DataField>ItemSearchDesc</DataField>
+        </Field>
+        <Field Name="ItemInventoryPostingGroup">
+          <DataField>ItemInventoryPostingGroup</DataField>
+        </Field>
+        <Field Name="Unit_of_Measure_Code">
+          <DataField>Unit_of_Measure_Code</DataField>
+        </Field>
+        <Field Name="QtyOnHandInAltUOM">
+          <DataField>QtyOnHandInAltUOM</DataField>
+        </Field>
+        <Field Name="QtyOnHandInAltUOMFormat">
+          <DataField>QtyOnHandInAltUOMFormat</DataField>
+        </Field>
+        <Field Name="Alternate_UOM_">
+          <DataField>Alternate_UOM_</DataField>
+        </Field>
+        <Field Name="Quantity">
+          <DataField>Quantity</DataField>
+        </Field>
+        <Field Name="QuantityFormat">
+          <DataField>QuantityFormat</DataField>
+        </Field>
+        <Field Name="Curent_Available_Stock_">
+          <DataField>Curent_Available_Stock_</DataField>
+        </Field>
+        <Field Name="Curent_Available_Stock_Format">
+          <DataField>Curent_Available_Stock_Format</DataField>
+        </Field>
+        <Field Name="Posting_Date">
+          <DataField>Posting_Date</DataField>
+        </Field>
+        <Field Name="Lot_No_">
+          <DataField>Lot_No_</DataField>
+        </Field>
+        <Field Name="Country_Region_Code">
+          <DataField>Country_Region_Code</DataField>
+        </Field>
+        <Field Name="Job_No_">
+          <DataField>Job_No_</DataField>
+        </Field>
+        <Field Name="BOE_No_">
+          <DataField>BOE_No_</DataField>
+        </Field>
+        <Field Name="HS_Code_">
+          <DataField>HS_Code_</DataField>
+        </Field>
+        <Field Name="Expiration_Date">
+          <DataField>Expiration_Date</DataField>
+        </Field>
+        <Field Name="ExpiryDays">
+          <DataField>ExpiryDays</DataField>
+        </Field>
+        <Field Name="Entry_Type">
+          <DataField>Entry_Type</DataField>
+        </Field>
+        <Field Name="Storage_Days_">
+          <DataField>Storage_Days_</DataField>
+        </Field>
+        <Field Name="Storage_Days_Format">
+          <DataField>Storage_Days_Format</DataField>
+        </Field>
+        <Field Name="Inventory_Aging_">
+          <DataField>Inventory_Aging_</DataField>
+        </Field>
+        <Field Name="CompanyAddr1Value">
+          <DataField>CompanyAddr1Value</DataField>
+        </Field>
+        <Field Name="CompanyAddr2Value">
+          <DataField>CompanyAddr2Value</DataField>
+        </Field>
+        <Field Name="CompanyAddr3Value">
+          <DataField>CompanyAddr3Value</DataField>
+        </Field>
+        <Field Name="AsOfDate">
+          <DataField>AsOfDate</DataField>
+        </Field>
+        <Field Name="CompanyName_Filter">
+          <DataField>CompanyName_Filter</DataField>
+        </Field>
+        <Field Name="Remaining_Quantity">
+          <DataField>Remaining_Quantity</DataField>
+        </Field>
+        <Field Name="Remaining_QuantityFormat">
+          <DataField>Remaining_QuantityFormat</DataField>
+        </Field>
+        <Field Name="Entry_No_">
+          <DataField>Entry_No_</DataField>
+        </Field>
+        <Field Name="Variant_Code">
+          <DataField>Variant_Code</DataField>
+        </Field>
+        <Field Name="PackingDescription">
+          <DataField>PackingDescription</DataField>
+        </Field>
+        <Field Name="Reserved_Quantity">
+          <DataField>Reserved_Quantity</DataField>
+        </Field>
+        <Field Name="Reserved_QuantityFormat">
+          <DataField>Reserved_QuantityFormat</DataField>
+        </Field>
+        <Field Name="UOM_Reserved_">
+          <DataField>UOM_Reserved_</DataField>
+        </Field>
+        <Field Name="UOM_Reserved_Format">
+          <DataField>UOM_Reserved_Format</DataField>
+        </Field>
+        <Field Name="Account_Name_">
+          <DataField>Account_Name_</DataField>
+        </Field>
+        <Field Name="Creation_Date_">
+          <DataField>Creation_Date_</DataField>
+        </Field>
+        <Field Name="SONo">
+          <DataField>SONo</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

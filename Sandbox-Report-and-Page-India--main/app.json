@@ -1,0 +1,102 @@
+{
+  "id": "538e8bf9-41fd-4150-8819-d79cd1d1144d",
+  "name": "Reports and Pages",
+  "publisher": "Chemiprime Impex Pvt Ltd",
+  "version": "1.0.0.29",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies":[
+    {
+    "id": "213a67b3-a931-4d61-8ed4-8f5ccae345c3",
+    "publisher": "Kemipex FZE",
+    "name": "Kemipex Base App",
+    "version": "1.0.0.0"
+  },
+  {
+    "id": "c447a136-b2eb-49c3-ae53-41c311960f9b",
+    "publisher": "Kemipex FZE",
+    "name": "Kemipex Enhancement App",
+    "version": "1.0.0.0"
+  },
+  {
+    "id": "3881b960-40e7-4b1f-9383-adf286c85763",
+    "publisher": "Kemipex FZE",
+    "name": "Kemipex Business App",
+    "version": "1.0.0.0"
+  },
+  {
+    "id": "3485eece-9d4a-4032-9bd4-f514c6813c52",
+    "name": "Standard Reports",
+    "publisher": "ISPL",
+    "version": "1.0.0.0"
+  },
+  {
+    "id": "d3c551dd-5903-4194-b153-04ced9d29a2c",
+    "publisher": "Microsoft",
+    "name": "India Tax Base",
+    "version": "19.1.31886.32222"   
+  },
+  {
+    "id": "db643212-b7fb-4dd4-b5a8-cb44ac714461",
+    "publisher": "Microsoft",
+    "name": "India GST",
+    "version": "20.5.45456.46774"
+  },
+  {
+    "id": "c1eafb3f-e397-468e-bdb4-ecc5c317ca00",
+    "publisher": "Microsoft",
+    "name": "Tax Engine",
+    "version": "19.1.31886.32222"
+  },
+  {
+    "id": "eae5779e-7797-4c4c-977e-7516652b7a65",
+    "publisher": "Microsoft",
+    "name": "India TDS",
+    "version": "19.5.36567.36841"
+  },
+  {
+    "id": "eddcf82e-482c-49d1-836b-ad0284f2c5b0",
+    "publisher": "Microsoft",
+    "name": "India TCS",
+    "version": "19.5.36567.36841"
+  },
+  {
+    "id": "f1d9b696-156b-4251-b542-34e549fa80e9",
+    "publisher": "Microsoft",
+    "name": "India Voucher Interface",
+    "version": "19.5.36567.36841"
+  },
+  {
+    "id": "050f6146-bffd-40de-942c-d0dd510ec20f",
+    "publisher": "Microsoft",
+    "name": "India Reports",
+    "version": "25.2.27733.28023"
+  },
+  {
+    "id": "2dc39818-e0f0-42b6-99eb-ba29dc5f4102",
+    "publisher": "Microsoft",
+    "name": "India Gate Entry",
+    "version": "19.5.36567.36841"
+  }
+  ],
+  "screenshots": [],
+  "platform": "20.0.0.0",
+  "application": "24.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": false,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+},
+"runtime": "13.0"
+}

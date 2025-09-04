@@ -1,0 +1,39 @@
+{
+  "id": "ec463e61-a303-441d-bb5d-12a14141db15",
+  "name": "Document Short Close",
+  "publisher": "ISPL",
+  "version": "1.0.0.26",
+  "brief": "Document Short Close enables users to close pending Purchase/Sales orders.",
+  "description": "In businesses, sending or receiving the order quantity less than the placed order is common. The reasons for this shortage can be many but the consequences i.e., the process involved to close such entries is tedious and prone to errors as it is done manually. To solve this issue, Intech has developed Document ForeClosuer app which ensures that such contingencies are managed effortlessly.",
+  "privacyStatement": "https://intech-systems.com/privacy-policy/",
+  "EULA": "https://intech-systems.com/wp-content/uploads/2022/01/Document-Short-Close-EULA.pdf",
+  "help": "https://intech-systems.com/wp-content/uploads/2022/01/Dynamics-365-Business-Central-Document-Short-Close-User-Manual.pdf",
+  "url": "https://www.intech-systems.com",
+  "logo": "",
+  "applicationInsightsConnectionString": "",
+  "dependencies": [
+    {
+      "id": "db643212-b7fb-4dd4-b5a8-cb44ac714461",
+      "publisher": "Microsoft",
+      "version": "24.0.0.0",
+      "name": "India GST"
+      }
+  ],
+  "screenshots": [],
+  "features": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 79646,
+      "to": 79680
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://BusinesscentralIN.com/help/",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "8.0"
+}

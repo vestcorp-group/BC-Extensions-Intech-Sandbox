@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <ReportParameters>
+    <ReportParameter Name="Report_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Report_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Report_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Report_Lbl1">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Report_Lbl1</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Report_Lbl1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Report_Lbl2">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Report_Lbl2</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Report_Lbl2</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Authority_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Authority_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Authority_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Stamp_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Stamp_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Stamp_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Date_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Date_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Date_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Remarks_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Remarks_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Remarks_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="TrFrom_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>TrFrom_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>TrFrom_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="TrTo_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>TrTo_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>TrTo_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="SerialNo_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>SerialNo_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>SerialNo_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ItemNo_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>ItemNo_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>ItemNo_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Desc_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Desc_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Desc_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LotNo_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LotNo_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LotNo_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Boe_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Boe_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Boe_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="BaseUOM_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>BaseUOM_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>BaseUOM_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="BUOMQ_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>BUOMQ_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>BUOMQ_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="AlUOM_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>AlUOM_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>AlUOM_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="AlUOMQ_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>AlUOMQ_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>AlUOMQ_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Total_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>Total_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Total_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="PosDate_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>PosDate_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>PosDate_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="OrderNo_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>OrderNo_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>OrderNo_Lbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="RemarkHead_Lbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>RemarkHead_Lbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>RemarkHead_Lbl</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="No_TH">
+          <DataField>No_TH</DataField>
+        </Field>
+        <Field Name="PostingDate_TH">
+          <DataField>PostingDate_TH</DataField>
+        </Field>
+        <Field Name="TransferfromName_TH">
+          <DataField>TransferfromName_TH</DataField>
+        </Field>
+        <Field Name="TransferfromAddress_TH">
+          <DataField>TransferfromAddress_TH</DataField>
+        </Field>
+        <Field Name="TransferfromAddress2_TH">
+          <DataField>TransferfromAddress2_TH</DataField>
+        </Field>
+        <Field Name="TransferfromCity_TH">
+          <DataField>TransferfromCity_TH</DataField>
+        </Field>
+        <Field Name="Transfer_from_Post_Code">
+          <DataField>Transfer_from_Post_Code</DataField>
+        </Field>
+        <Field Name="Transfer_to_Post_Code">
+          <DataField>Transfer_to_Post_Code</DataField>
+        </Field>
+        <Field Name="TrsffromCountryRegionCode_TH">
+          <DataField>TrsffromCountryRegionCode_TH</DataField>
+        </Field>
+        <Field Name="TrFromCountryName">
+          <DataField>TrFromCountryName</DataField>
+        </Field>
+        <Field Name="TransfertoName_TH">
+          <DataField>TransfertoName_TH</DataField>
+        </Field>
+        <Field Name="TransfertoAddress_TH">
+          <DataField>TransfertoAddress_TH</DataField>
+        </Field>
+        <Field Name="TransfertoAddress2_TH">
+          <DataField>TransfertoAddress2_TH</DataField>
+        </Field>
+        <Field Name="TransfertoCity_TH">
+          <DataField>TransfertoCity_TH</DataField>
+        </Field>
+        <Field Name="TrsftoCountryRegionCode_TH">
+          <DataField>TrsftoCountryRegionCode_TH</DataField>
+        </Field>
+        <Field Name="TrToCountryName">
+          <DataField>TrToCountryName</DataField>
+        </Field>
+        <Field Name="FromAddressToggle">
+          <DataField>FromAddressToggle</DataField>
+        </Field>
+        <Field Name="ToAddressToggle">
+          <DataField>ToAddressToggle</DataField>
+        </Field>
+        <Field Name="Name_CI">
+          <DataField>Name_CI</DataField>
+        </Field>
+        <Field Name="Address_CI">
+          <DataField>Address_CI</DataField>
+        </Field>
+        <Field Name="Address2_CI">
+          <DataField>Address2_CI</DataField>
+        </Field>
+        <Field Name="PostCode_CI">
+          <DataField>PostCode_CI</DataField>
+        </Field>
+        <Field Name="City_CI">
+          <DataField>City_CI</DataField>
+        </Field>
+        <Field Name="CountryRegion_CI">
+          <DataField>CountryRegion_CI</DataField>
+        </Field>
+        <Field Name="TotalQty">
+          <DataField>TotalQty</DataField>
+        </Field>
+        <Field Name="TotalQtyFormat">
+          <DataField>TotalQtyFormat</DataField>
+        </Field>
+        <Field Name="LineUnMerge">
+          <DataField>LineUnMerge</DataField>
+        </Field>
+        <Field Name="LineNo_TransferLine">
+          <DataField>LineNo_TransferLine</DataField>
+        </Field>
+        <Field Name="SerialNo">
+          <DataField>SerialNo</DataField>
+        </Field>
+        <Field Name="ItemNo_TL">
+          <DataField>ItemNo_TL</DataField>
+        </Field>
+        <Field Name="UnitofMeasure_TL">
+          <DataField>UnitofMeasure_TL</DataField>
+        </Field>
+        <Field Name="Description_TL">
+          <DataField>Description_TL</DataField>
+        </Field>
+        <Field Name="Variant_Code">
+          <DataField>Variant_Code</DataField>
+        </Field>
+        <Field Name="Quantity_TL">
+          <DataField>Quantity_TL</DataField>
+        </Field>
+        <Field Name="Quantity_TLFormat">
+          <DataField>Quantity_TLFormat</DataField>
+        </Field>
+        <Field Name="QuantityBase_TL">
+          <DataField>QuantityBase_TL</DataField>
+        </Field>
+        <Field Name="QuantityBase_TLFormat">
+          <DataField>QuantityBase_TLFormat</DataField>
+        </Field>
+        <Field Name="AlterNateUOMCode">
+          <DataField>AlterNateUOMCode</DataField>
+        </Field>
+        <Field Name="DecimalAllowed">
+          <DataField>DecimalAllowed</DataField>
+        </Field>
+        <Field Name="AlternateUOMQty">
+          <DataField>AlternateUOMQty</DataField>
+        </Field>
+        <Field Name="AlternateUOMQtyFormat">
+          <DataField>AlternateUOMQtyFormat</DataField>
+        </Field>
+        <Field Name="HSCode">
+          <DataField>HSCode</DataField>
+        </Field>
+        <Field Name="Origin">
+          <DataField>Origin</DataField>
+        </Field>
+        <Field Name="Generic_Name">
+          <DataField>Generic_Name</DataField>
+        </Field>
+        <Field Name="TotalAltQty">
+          <DataField>TotalAltQty</DataField>
+        </Field>
+        <Field Name="TotalAltQtyFormat">
+          <DataField>TotalAltQtyFormat</DataField>
+        </Field>
+        <Field Name="AltQtytransferline">
+          <DataField>AltQtytransferline</DataField>
+        </Field>
+        <Field Name="AltQtytransferlineFormat">
+          <DataField>AltQtytransferlineFormat</DataField>
+        </Field>
+        <Field Name="LotExist">
+          <DataField>LotExist</DataField>
+        </Field>
+        <Field Name="LotNo_R">
+          <DataField>LotNo_R</DataField>
+        </Field>
+        <Field Name="Quantity_Base_R">
+          <DataField>Quantity_Base_R</DataField>
+        </Field>
+        <Field Name="Quantity_Base_RFormat">
+          <DataField>Quantity_Base_RFormat</DataField>
+        </Field>
+        <Field Name="AltQtyreservation">
+          <DataField>AltQtyreservation</DataField>
+        </Field>
+        <Field Name="AltQtyreservationFormat">
+          <DataField>AltQtyreservationFormat</DataField>
+        </Field>
+        <Field Name="AltQty1">
+          <DataField>AltQty1</DataField>
+        </Field>
+        <Field Name="AltQty1Format">
+          <DataField>AltQty1Format</DataField>
+        </Field>
+        <Field Name="BOE_No">
+          <DataField>BOE_No</DataField>
+        </Field>
+        <Field Name="AlternateUOMQty11">
+          <DataField>AlternateUOMQty11</DataField>
+        </Field>
+        <Field Name="AlternateUOMQty11Format">
+          <DataField>AlternateUOMQty11Format</DataField>
+        </Field>
+        <Field Name="QuantityBase_TL1">
+          <DataField>QuantityBase_TL1</DataField>
+        </Field>
+        <Field Name="QuantityBase_TL1Format">
+          <DataField>QuantityBase_TL1Format</DataField>
+        </Field>
+        <Field Name="RemarksSerial">
+          <DataField>RemarksSerial</DataField>
+        </Field>
+        <Field Name="LineNo_TCL">
+          <DataField>LineNo_TCL</DataField>
+        </Field>
+        <Field Name="No_TCL">
+          <DataField>No_TCL</DataField>
+        </Field>
+        <Field Name="Comment">
+          <DataField>Comment</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

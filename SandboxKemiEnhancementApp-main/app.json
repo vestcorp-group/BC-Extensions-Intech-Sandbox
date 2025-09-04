@@ -1,0 +1,32 @@
+{
+    "id": "c447a136-b2eb-49c3-ae53-41c311960f9b",
+    "name": "Kemipex Enhancement App",
+    "publisher": "Kemipex FZE",
+    "version": "1.0.0.20",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [{
+        "id": "213a67b3-a931-4d61-8ed4-8f5ccae345c3",
+        "name": "Kemipex Base App",
+        "publisher": "Kemipex FZE",
+        "version": "1.0.0.0"
+    }],
+    "screenshots": [],
+    "platform": "20.0.0.0",
+    "application": "24.0.0.0",
+    "idRanges": [{
+        "from": 70000,
+        "to": 89999
+    }],
+    "resourceExposurePolicy": {
+        "allowDebugging": false,
+        "allowDownloadingSource": false,
+        "includeSourceInSymbolFile": false
+    },
+    "runtime": "13.0"
+}
